@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #4a90e2;
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #cce7ff;
+}
+
+/* Header styling */
+header {
+    background-color: #34495e;
+    color: #fff;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Category Section */
+section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+section img {
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #4a90e2;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #f9f9f9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #cce7ff;
+}
+
+/* Button styling */
+.btn-primary {
+    background-color: #34495e;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4a90e2;
+}
